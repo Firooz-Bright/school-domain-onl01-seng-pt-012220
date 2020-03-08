@@ -1,12 +1,13 @@
 # code here!
 
-class School(name)
+class School
   roster={}
-  @name= initilaize=name 
-  
+  def initilaize(name)
+  @name=name 
+ end 
   def add_student(string, number)
   roster[:number]<< string
-  end 
+ end 
   def grade(arg)
     return roster[:arg]
   end 
