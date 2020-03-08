@@ -4,10 +4,12 @@ class School
    roster={}
    def initilaize(name)
    @name=name 
- end 
+   end 
+   
   def add_student(string, number)
   roster[:number] << string
- end 
+  end
+  
   def grade(arg)
     return roster[:arg]
   end 
