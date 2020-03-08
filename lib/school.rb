@@ -6,7 +6,7 @@ class School
   @name=name 
  end 
   def add_student(string, number)
-  roster[:number]<< string
+  roster[:number] << string
  end 
   def grade(arg)
     return roster[:arg]
